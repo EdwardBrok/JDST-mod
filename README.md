@@ -1,4 +1,4 @@
-# JDST
+# Joey Drew Studios Technologies
 The Mindustry mod based on "Bendy and the ink machine" universe. Discover power of ink.
 
 Nobody knows by which way this technologies 
