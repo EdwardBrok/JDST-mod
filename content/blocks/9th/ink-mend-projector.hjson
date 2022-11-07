@@ -1,0 +1,34 @@
+type: MendProjector
+size: 3
+health: 500
+range: 180
+reload: 1
+ambientSound: frb180916
+ambientSoundVolume: 0.5
+healPercent: 0.085
+useTime: 10
+baseColor: 212342
+phaseColor: 000000
+hasLiquids: true
+liquidCapacity: 400
+consumes: {
+  power: 0.7
+  items: {
+   items: [
+    clotInk/0.1
+   ]
+  }
+  liquid: ink/0.75
+}
+requirements: [
+  copper/200
+  lead/130
+  silicon/80
+  plastanium/60
+  phase-fabric/40
+  scrap/70
+  clotInk/90
+  inkCan/120
+]
+category: effect
+research: mender

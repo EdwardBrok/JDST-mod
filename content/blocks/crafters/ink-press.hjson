@@ -1,0 +1,28 @@
+//name: "Диспенсер чернил"
+//description: "Заливает чернила в небольшие емкости для их транспортировки в некоторые турели и на конвейер."
+type: GenericCrafter
+size: 3
+hasPower: true
+ambientSound: snd4+
+ambientSoundVolume: 0.7
+itemCapacity: 10
+liquidCapacity: 24
+updateEffect: smoke
+consumes: {
+items:{
+items:[
+scrap/3
+]
+}
+liquid: ink/0.1
+power: 5
+}
+outputItem: inkCan/1
+requirements: [
+copper/50
+lead/45
+metaglass/25
+scrap/40
+]
+category: crafting
+research: ink

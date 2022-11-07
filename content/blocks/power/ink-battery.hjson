@@ -1,0 +1,19 @@
+//name: "Аккумулятор GENT"
+//description: "Аккумулятор производства компании 'GENT'. Никто не знает, почему чернила могут накапливать энергию, но это довольно-таки полезное свойство."
+type: Battery
+health: 370
+size: 2
+buildCostMultiplier: 0.675
+emptyLightColor: #aboba //поменять
+fullLightColor: #bebra //тоже поменять
+consumes: {
+powerBuffered: 20000
+}
+category: power
+requirements:[
+lead/40
+copper/40
+scrap/25
+clotInk/10
+]
+research: battery

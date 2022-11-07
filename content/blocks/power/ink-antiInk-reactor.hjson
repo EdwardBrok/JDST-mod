@@ -1,0 +1,31 @@
+type: ImpactReactor
+itemDuration: 120
+liquidCapacity: 1400
+size: 8
+hasLiquids: true
+powerProduction: 240
+/*
+plasmas: 3
+plasma1: "#e18e00"
+plasma2: "#000000"
+plasma3: "#b26700"
+*/
+consumes: {
+  power: 128
+  liquids: {
+   liquids:[ink/3.8,antiInk/3.8]
+  }
+}
+requirements: [
+  surge-alloy/750
+  inkCan/100
+  silicon/1000
+  lead/1250
+  titanium/700
+  plastanium/450
+  clotInk/550
+]
+category: power
+ambientSound: snd11+
+ambientSoundVolume: 0.7
+research: impact-reactor

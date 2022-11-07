@@ -1,0 +1,7 @@
+temperature: 0.5
+flammability: 0
+heatCapacity: 0.5
+viscosity: 0.7
+explosiveness: 0
+//radioactivity: 1
+color: "#eeeeee"

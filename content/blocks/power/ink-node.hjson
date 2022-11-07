@@ -1,0 +1,19 @@
+type: powerNode
+//name: "Вышка связи GENT" 
+//description: "Улучшенная кинетическая вышка. Сконструирована компанией GENT. Имеет огромную дальность и больше подключений. Очень дорогая в обслуживании."
+size: 3
+maxNodes: 3
+laserRange: 50
+requirements: [
+copper/150
+lead/200
+metaglass/110
+surge-alloy/70
+plastanium/30
+phase-fabric/40
+clotInk/50
+]
+hasLiquids: false
+hasPower: true
+category: power
+research: surge-tower

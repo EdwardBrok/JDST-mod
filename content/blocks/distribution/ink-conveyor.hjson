@@ -1,0 +1,18 @@
+type: Conveyor
+health: 540
+requirements: [
+  copper/4
+  lead/3
+  titanium/2
+  surge-alloy/1
+  scrap/2
+  clotInk/3
+]
+category: distribution
+speed: 0.125
+displayedSpeed: 16
+research: clotInk
+/* 
+armored-conveyor
+clotInk
+*/

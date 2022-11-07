@@ -1,0 +1,11 @@
+{
+    "type": "AutoDoor",
+    "health": 100,
+    "size": 2,
+    "requirements": [
+        "scrap/100",
+        "titanium/80",
+        "clotInk/60"
+    ],
+    "category": "defense"
+}

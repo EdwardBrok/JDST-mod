@@ -1,8 +1,25 @@
 displayName: "Joey Drew Studios Technologies"
 name: "jdst"
-description: "Предыстория умалчивает, какого черта эти технологии частной компании попали к Вам. И всё-таки... \nПереоткройте гениальные технологии старой заброшенной студии. Овладейте силой чернил. Научитесь создавать из них почти всё и вся. \n\nНи в коем случае не пробудите [red]чернильного демона[]."
-author: "[blue]Edward_Brok[], [violet]JacobG0712 and Lev Zaycev "
-version: "1.0"
+description: 
+  '''
+  Предыстория умалчивает, какого черта эти технологии частной компании попали к Вам. И всё-таки... 
+  
+  
+  Переоткройте гениальные технологии старой заброшенной студии. 
+  Овладейте силой чернил. 
+  Научитесь создавать из них почти всё и вся. 
+  
+  Ни в коем случае не пробудите [red]чернильного демона[].
+  '''
+author: "Edward_Brok (content), liplum (MultiCraft Lib)"
+version: "1.0-debuggin"
 dependencies: []
 minGameVersion: 136
 hidden: false
+/*//main: MultiCrafterAdapter*/
+//java: true
+subtitle: WARNING: MAY CONTAIN BUGS 'CAUSE IN-DEV
+//subtitle: machine must endure
+//ИНЪЕКТИРУЙТЕ ЛИБУ МУЛЬТИКРАФТЕРА БЛЯТЬ
+//УЖЕ ИНЪЕКТИРОВАНА НАХУЙ И ВСЕ РАБОТАЕТ БЛЯ
+//ДА ХУЛИ ВЫЛЕТАЕТ ТО БЛЯТЬ

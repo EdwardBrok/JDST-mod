@@ -1,0 +1,48 @@
+name: "Истинная чернильная машина"
+description: "Настоящая чернильная машина. Машина поменьше — всего лишь жалкая игрушка. Будьте осторожны с ней: [red]Чернильный Демон слишком силен[], чтобы с ним справиться. Просто не используйте ее слишком часто."
+type: UnitFactory
+health: 6666
+size: 9
+liquidCapacity: 1200
+unitCapModifier: 1
+plans: [
+    {
+        unit: dagger
+        requirements:[
+            scrap/5
+            clotInk/12
+        ]
+        time: 10
+    }
+    {
+        unit: crawler
+        requirements:[
+            scrap/2
+            clotInk/8
+        ]
+        time: 6
+    }
+    {
+        unit: nova
+        requirements:[
+            clotInk/15
+            scrap/5
+        ]
+        time: 14
+    }
+]
+consumes:{
+        power: 100.0
+        liquid: ink/5
+}
+category: units
+research: ink-machine
+requirements:[
+copper/1200
+scrap/1000
+lead/700
+silicon/1200
+graphite/800
+surge-alloy/1000
+metaglass/950
+]

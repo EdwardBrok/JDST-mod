@@ -1,0 +1,51 @@
+type: ItemTurret
+name: "Загрязнитель"
+description: "Стреляет жирными чернилами, которые превращают обычные боевые единицы в чернильные. Чернильная Форсунка их добивает:\nкоснувшись чернил, чернильные версии боевых единиц возвращаются в небытие."
+targetAir: true
+targetGround: true
+health: 480
+size: 2
+rotateSpeed: 6
+reloadTime: 50
+inaccuracy: 2
+range: 250
+shootSound: bigshot
+ammoTypes: {
+    clotInk:{
+        speed: 5
+        lifetime: 60
+        damage: 10
+        ammoMultiplier: 5
+        //homingPower: 1 //самонаводка
+        //homingRange: 20 //самонаводка
+        reloadMultiplier: 0.75
+        //sprite: jdst-clotInk-bullet
+        status: inky
+        width: 3
+        height: 7
+        frontColor: ffffff
+        backColor: ffffff
+    }
+    inkCan:{
+        speed: 5
+        lifetime: 80
+        damage: 15
+        ammoMultiplier: 3
+        //homingPower: 1
+        //homingRange: 20
+        reloadMultiplier: 1
+        status: inky
+        width: 12
+        height: 16
+        sprite: jdst-ink-can-bullet
+        frontColor: ffffff
+        backColor: ffffff
+    }
+}
+category: turret
+requirements: [
+    copper/45
+    lead/40
+    scrap/30
+]
+research: factory

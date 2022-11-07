@@ -1,0 +1,33 @@
+//name: "Чернильный нано-ускоритель"
+//description: "Чернила имеют свойство ускорять строения. Не стоит мелочиться на постройку этого блока."
+type: OverdriveProjector
+size: 4
+health: 1720
+consumes:{
+power: 5
+liquid: ink/1
+}
+range: 500
+/*по какой-то причине одна единица рейджа = 8 плиткам в мире
+1 piece of "range" = 8 tiles on the map. but why?*/
+useTime: 300
+hasBoost: false
+hasLiquids: true
+hasItems: false
+liquidCapacity: 300
+speedBoost: 3.2
+phaseColor: 00ff00
+baseColor: 000000
+category: effect
+research: ink
+requirements:[
+copper/350
+lead/400
+metaglass/100
+silicon/120
+titanium/200
+thorium/180
+plastanium/200
+phase-fabric/70
+surge-alloy/110
+]

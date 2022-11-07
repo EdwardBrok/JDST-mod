@@ -1,0 +1,11 @@
+/*
+name: "Жирные чернила"
+description: "Тоже чернила, только намного гуще. Основа для создания предметов и мехов."
+
+причина выреза: перенес в bundle_ru
+*/
+color: "#000100"
+radioactivity: 0.0
+explosiveness:0.0
+flammability:0.0
+hardness: 2

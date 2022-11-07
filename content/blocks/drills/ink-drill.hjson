@@ -1,0 +1,27 @@
+//name: "Бур GENT"
+//description: "Бур, созданный компанией GENT. Требует наличия чернил, но зато добывает больше ресурсов, чем лазерный бур."
+type: Drill
+size:5
+health:500
+tier:10
+drillTime: 10
+itemCapacity:25
+hasLiquids:true
+hasPower:true
+liquidCapacity:50
+rotateSpeed:7
+consumes:{
+liquid:{
+liquid: ink
+amount:0.1
+optional:false
+booster:true
+}
+power: 10
+}
+requirements:[
+scrap/200
+clotInk/75
+]
+category: production
+research: blast-drill

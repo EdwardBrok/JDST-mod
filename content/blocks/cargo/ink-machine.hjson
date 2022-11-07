@@ -1,0 +1,50 @@
+name: "Чернильная машина"
+description: "Главнейшее изобретение одного человека по имени Уолли Фрэнкс. Это устройство\nпозволяет создавать чернильные версии боевых единиц, что очень дешево."
+type: UnitFactory
+health: 666
+size: 3
+unitCapModifier: 1
+plans: [
+    {
+        unit: dagger
+            requirements:[
+                scrap/10
+                clotInk/10
+            ]
+        time: 900
+    }
+    {
+        unit: crawler
+            requirements:[
+                scrap/8
+                clotInk/5
+                blast-compound/3
+            ]
+        time: 720
+    }
+    {
+        unit: nova
+            requirements:[
+                scrap/15
+                lead/10
+                titanium/10
+                clotInk/5
+            ]
+         time: 2400
+    }
+]
+consumes:{
+    power: 1.2
+}
+ambientSound: snd2
+ambientSoundVolume: 1
+category: units
+research: ink-mixer
+requirements:[
+    copper/120
+    scrap/100
+    lead/70
+    silicon/120
+    graphite/80
+    metaglass/90
+]

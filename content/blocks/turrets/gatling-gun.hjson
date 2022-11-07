@@ -1,0 +1,32 @@
+type: ItemTurret
+targetAir: true
+targetGround: true
+health: 1040
+size: 3
+rotateSpeed: 1
+reloadTime: 0.01
+inaccuracy: 15
+range: 75
+shootSound: artillery
+ammoTypes:{
+    inkCan:{
+        speed: 6
+        lifetime: 60
+        damage: 3
+        reloadMultiplier: 5
+        status: inky
+        width: 8
+        height: 12
+        //sprite: jdst-
+        frontColor: f8ac00
+        backColor: f8ac00
+    }
+}
+category: turret
+requirements: [
+    copper/80
+    lead/65
+    scrap/50
+    clotInk/40
+]
+research: factory

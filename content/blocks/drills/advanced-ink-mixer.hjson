@@ -1,0 +1,29 @@
+type: Fracker
+size: 6
+liquidCapacity: 120
+result: ink
+attribute: water
+pumpAmount: 0.3
+itemUseTime: 60
+rotateSpeed: 5
+ambientSound: respawning
+ambientSoundVolume: 0.5
+consumes: {
+  power: 11
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+}
+category: production
+research: ink-mixer
+requirements: [
+  copper/1500
+  silicon/1200
+  metaglass/1000
+  graphite/600
+  thorium/450
+  scrap/150
+  inkCan/300
+]

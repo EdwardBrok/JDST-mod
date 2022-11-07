@@ -1,0 +1,32 @@
+type: GenericCrafter
+size: 4
+hasPower: true
+hasLiquid: true
+hasItems: false
+craftTime: 120
+//craftEffect: 
+/*
+drawer: {
+ type: DrawCultivator
+ plantColor: "#ff00ff"
+ plantColorLight: "#ffff00"
+ bottomColor: 000000
+}
+*/
+ambientSound: beam
+ambientSoundVolume: 1
+liquidCapacity: 30
+consumes:{
+power: 1260
+liquid: ink/6
+}
+outputLiquid: antiInk/1
+requirements:[
+copper/480
+lead/375
+metaglass/200
+phase-fabric/275
+surge-alloy/300
+]
+category: crafting
+research: ink-mixer

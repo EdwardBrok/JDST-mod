@@ -1,0 +1,39 @@
+type: GenericCrafter
+//name:"Ферма массивных искателей"
+//description:"Выращивает больших Искателей для последующего сбора жирных чернил."
+outputItem: clotInk/4
+size: 2
+hasPower:true
+hasItems:true
+hasLiquids:true
+craftTime: 120
+drawer: {
+ type: DrawMulti
+ drawers: [
+  {
+   type: DrawRegion
+   suffix: "-bottom"
+  }
+  {
+   type: DrawRegion
+   suffix: "-mid"
+  }
+  {
+   type: DrawRegion
+   suffix: "-top"
+  }
+ ]
+}
+ambientSound: sndMain
+ambientSoundVolume: 1
+itemCapacity: 12
+consumes: {
+ power: 1.5
+ liquid: ink/0.1
+}
+requirements: [
+ copper/40
+ lead/35
+]
+category: crafting
+research: ink-mixer

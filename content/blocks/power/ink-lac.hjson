@@ -1,0 +1,27 @@
+type: ConsumeGenerator
+size: 4
+health: 1280
+hasLiquids: true
+hasItems: false
+hasPower: true
+powerProduction: 16
+consumes: {
+/*	items: {
+      items: [
+          inkCan/5
+      ]
+   }*/
+liquid: ink/0.25
+}
+requirements: [
+inkCan/200
+clotInk/215
+phase-fabric/250
+scrap/410
+plastanium/180
+surge-alloy/110
+titanium/230
+lead/360
+]
+category: power
+research: ink-node

@@ -1,0 +1,28 @@
+type: GenericCrafter
+//name: "Мешалка чернил"
+//description: "Мешает чернила из угольного нано-порошка и воды."
+itemCapacity: 10
+size: 1
+updateEffect: none
+consumes: {
+ items:{
+  items:[
+   coal/4
+  ]
+ }
+ power: 2
+ liquid: water/0.1
+}
+outputLiquid: ink/1
+requirements: [
+copper/40
+lead/35
+]
+hasLiquids: true
+hasItems: true
+hasPower: true
+craftTime: 60
+ambientSound: machine
+ambientSoundVolume: 1.0
+category: crafting
+research: graphite-press
