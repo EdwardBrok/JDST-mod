@@ -27,3 +27,6 @@ Contact me if u need:
 @[RU] Edward Brok#0501 — Discord
 @anuke_mindustry — Telegram
 [@the_edik](https://vk.com/the_edik) — VK
+
+These are the links to official pages of mod:
+[VK Group](https://vk.com/jdst_mod)
