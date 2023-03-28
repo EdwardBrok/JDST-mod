@@ -28,5 +28,5 @@ Contact me if u need:
 @anuke_mindustry — Telegram
 [@the_edik](https://vk.com/the_edik) — VK
 
-These are the links to official pages of mod:
+These are the links to official pages of mod:<br>
 [VK Group](https://vk.com/jdst_mod)
