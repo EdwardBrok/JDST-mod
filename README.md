@@ -24,8 +24,8 @@ I used [MultiLib](https://github.com/liplum/MultiCrafterLib) created by Liplum.
 
 # Feedback
 Contact me if u need: 
-@[RU] Edward Brok#0501 — Discord
-@anuke_mindustry — Telegram
+@edward_brok — Discord
+[@anuke_mindustry](https://t.me/anuke_mindustry) — Telegram
 [@the_edik](https://vk.com/the_edik) — VK
 
 These are the links to official pages of mod:<br>
