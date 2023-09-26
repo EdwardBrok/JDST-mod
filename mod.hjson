@@ -16,6 +16,8 @@ version: "1.0-debuggin"
 dependencies: []
 minGameVersion: 136
 hidden: false
+hideBrowser: true
+//mod will be hidden for a while till it becomes complete
 /*//main: MultiCrafterAdapter*/
 //java: true
 subtitle: WARNING: MAY CONTAIN BUGS 'CAUSE IN-DEV
